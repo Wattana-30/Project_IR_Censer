@@ -15,4 +15,4 @@ def insertWH(address,name,last_name):
     data = a.insertWH(address,name,last_name)
 
 if __name__  == "__main__":
-    uvicorn.run(app, host="192.168.216.103",port=8000)
+    uvicorn.run(app, host="192.168.216.103",port=8080)
