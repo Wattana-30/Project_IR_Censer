@@ -12,7 +12,7 @@ def con():
 
 
 class gat_data:
-    def selectWH(ID):
+    def selectHW(ID):
         mydb = con()
         mycursor = mydb.cursor(dictionary=True)
         sql = "SELECT * FROM ir_censer WHERE id = {}".format(ID)
@@ -20,20 +20,19 @@ class gat_data:
         data = mycursor.fetchall()
         return data
 
-    def insertWH(address, name, last_name):
+    def insertHW(address, name, last_name):
         mydb = con()
         mycursor = mydb.cursor()
-        sql = "INSERT INTO ir_censer(address,name,last_name)VALUES('{}','{}','{}')".format(
-            address, name, last_name)
+        sql = "INSERT INTO ir_censer(address,name,last_name)VALUES('{}','{}','{}')".format(address, name, last_name)
         mycursor.execute(sql)
         mydb.commit()
         data = mycursor.fetchall()
         return data
 
-    def updateHW(status,ID):
+    def updateHW(status, ID):
         mydb = con()
         mycursor = mydb.cursor(dictionary=True)
-        sql = "UPDATE ir_censer SET status= '{}' WHERE id = '{}'".format(status,ID)
+        sql = "UPDATE ir_censer SET status= '{}' WHERE id = '{}'".format(status, ID)
         mycursor.execute(sql)
         mydb.commit()
         return True
@@ -46,3 +45,11 @@ class gat_data:
         mydb.commit()
         ID = mycursor.lastrowid
         return ID
+
+    def selectHW_All():
+        mydb = con()
+        mycursor = mydb.cursor(dictionary=True)
+        sql = "SELECT * FROM ir_censer "
+        mycursor.execute(sql)
+        data = mycursor.fetchall()
+        return data

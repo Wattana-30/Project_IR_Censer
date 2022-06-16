@@ -1,18 +1,18 @@
 from DB import gat_data as c
 
 class Action:
-    def selectWH(ID):
-        data = c.selectWH(ID)
+    def selectHW(ID):
+        data = c.selectHW(ID)
         return data
     
-    def insertWH(address,name,last_name):
-        data = c.insertWH(address,name,last_name)
+    def insertHW(address,name,last_name):
+        data = c.insertHW(address,name,last_name)
         return data
 
     def updateHW(status,ID):
         t = c.updateHW(status,ID)
         if(t == True):
-            data = c.selectWH(ID)
+            data = c.selectHW(ID)
         else:
             data = {"ERROR":True}
         return data
@@ -22,4 +22,8 @@ class Action:
         data = c.deleteHW(ID)
         return data 
 
+
+    def selectHW_All():
+        data = c.selectHW_All()
+        return data
     
