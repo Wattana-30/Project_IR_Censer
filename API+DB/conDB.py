@@ -52,7 +52,7 @@ class GetData:
         return ID
             
     
-ID = GetData.deleteMin()
+ID = GetData.insertWH()
 print(ID)
     
     
