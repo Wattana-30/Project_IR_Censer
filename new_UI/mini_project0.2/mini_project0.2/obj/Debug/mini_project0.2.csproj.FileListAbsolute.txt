@@ -1,0 +1,12 @@
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\bin\Debug\mini_project0.2.exe.config
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\bin\Debug\mini_project0.2.exe
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\bin\Debug\mini_project0.2.pdb
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\obj\Debug\mini_project0.2.csproj.AssemblyReference.cache
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\obj\Debug\mini_project0.2.csproj.SuggestedBindingRedirects.cache
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\obj\Debug\mini_project0._2.Form1.resources
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\obj\Debug\mini_project0._2.Properties.Resources.resources
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\obj\Debug\mini_project0.2.csproj.GenerateResource.cache
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\obj\Debug\mini_project0.2.csproj.CoreCompileInputs.cache
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\obj\Debug\mini_project0.2.exe
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\obj\Debug\mini_project0.2.pdb
+C:\Users\natta\Desktop\new_UI\mini_project0.2\mini_project0.2\obj\Debug\mini_project0._2.Form2.resources
