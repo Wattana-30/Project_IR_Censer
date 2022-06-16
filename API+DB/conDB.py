@@ -25,18 +25,19 @@ class GetData:
         mydb.commit()
         ID = mycursor.lastrowid
         return ID
-    def updateHW():
+    def updateHW(status,ID):
         mydb = con()
         mycursor = mydb.cursor(dictionary=True)
-        sql ="UPDATE hard_ware SET status= 'ON' WHERE id = '25'"
+        sql ="UPDATE hard_ware SET status= '{}' WHERE id = '{}'".format(status,ID)
         mycursor.execute(sql)
         mydb.commit()
         ID = mycursor.lastrowid
         return ID
+
     def deleteHW():
         mydb = con()
         mycursor = mydb.cursor(dictionary=True)
-        sql ="DELETE FROM hard_ware WHERE id='25'"
+        sql ="DELETE FROM  WHERE id='25'"
         mycursor.execute(sql)
         mydb.commit()
         ID = mycursor.lastrowid
